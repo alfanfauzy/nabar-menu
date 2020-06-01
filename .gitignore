@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/_MACOSX
+/bower_components
+/images/.DS_Store
+/images/logo-liputan6.png
+/stylesheets/.DS_Store
+/stylesheets/.gitkeep
+/stylesheets/main.css.map
+navbar.zip

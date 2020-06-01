@@ -1,0 +1,123 @@
+body {
+  background: white; }
+
+/*# sourceMappingURL=main.css.map */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: red;
+}
+
+#navbar-menu{
+  overflow: hidden;
+  background-color: white;
+  border-top: 1px solid #F6641A;
+  box-shadow: 0px -20px 20px 0px rgba(0, 0, 0, 0.2), -1px -1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#menu {
+  background: white;
+}
+#menu ul {
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+}
+#menu ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#menu ul li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: small;
+}
+#menu ul li a:hover {
+  color: #F6641A;
+}
+
+#navbar-menu a#active{
+	color: #F6641A;
+}
+
+#navbar-menu .main-channel{
+  border-left: 1.1px solid lightgray;
+  border-right: 1.1px solid lightgray;
+}
+
+.icon-channel {
+  text-align:center;
+  background: url(../images/icons/channel.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-newest {
+  text-align:center;
+  background: url(../images/icons/newest.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-newest:hover {
+  text-align:center;
+  background: url(../images/icons/newest_on.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-editorspick {
+  text-align:center;
+  background: url(../images/icons/editorspick.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-popular {
+  text-align:center;
+  background: url(../images/icons/popular.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-trending {
+  text-align:center;
+  background: url(../images/icons/trending.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
+
+.icon-arrow {
+  text-align:center;
+  background: url(../images/icons/arrow.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  /* Other styles here */
+}
